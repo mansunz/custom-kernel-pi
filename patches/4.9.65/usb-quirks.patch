@@ -63,6 +63,7 @@ index 7613b9e..4a8fc40 100644
 +	case USB_ID(0x20b1, 0x3036): /* Holo Springs Level 3 R2R DAC */
 +	case USB_ID(0x20b1, 0x300f): /* Engineered Electronics Stereo Playback Interface */
 +	case USB_ID(0x20b1, 0x3021): /* Eastern El. MiniMax Tube DAC Supreme */
++ case USB_ID(0x152a, 0x8750): /* Topping DX7s */
 +                if (fp->altsetting == 3)
 +                        return SNDRV_PCM_FMTBIT_DSD_U32_BE;
 +                break;
